@@ -6,77 +6,87 @@
       <meta name="keywords" content="html,css">
       <meta name="description" content="...">
     <title>document</title>
-    <style>
-        em {
-            color: rgba(0, 0, 0, 0.951);
-            font-style: normal;
-           
-        }
-        .a1 {
-            margin-left: 0px;
-            margin-top: 100px;
-            
-        }
-      img {
-        width: 200px;
-        height: 200px;
-        border-radius: 100px;
-        float: left;
-        margin-right: 10px;
-        object-fit: cover;
-        
-      }
-      .username {
-        font-weight: bold;
-      }
-      video{
-        width: 700px;
-        
-
-      }
-      ul{
-        list-style-type:disc;
-      }
-      .d1{
-        background-color:rgb(186, 216, 244);
-        width: 700px;
-        height: 200px;
-      }
-      .highlight{
-        background-color: rgb(211, 229, 230);
-      }
-    </style>
+    <link rel="stylesheet" href="css/normalize.css"/>
+   <link rel="stylesheet" href="css/styles.css"/>
+  
+   <style>
+#first::after{
+ 
+  color: initial;
+  border:inherit;
+  <!--
+  content: "..."; 
+  display: block;
+  --> 
+}
+   </style>
   </head>
   <body>
-      <h1><span class="highlight">in the name of <em>god</em></span> </h1>
+    <header>
+      <div class="d3">
+      <nav>
+         <h1 class="d2" style="border: 10px solid rgb(186, 216, 244);" > in the name of <em id="first">god</em> </h1>
+         <ul>
+          <li>home page</li>
+          <li>about me</li>
+         </ul>
+        </nav>
+      </div>
+    </header> 
+   
+     <main>
       <div class="d1">
+       <figure>
     <img src="images/index1.jpg"  alt="an image mehrbano"/>
-    <a href="images/index1.jpg"  class="a1" download>download picture</a>
-    <p class="username">I am happy to learn front end</p>
+<figcaption>
+  this is an image profile
+</figcaption>
+       </figure>
+    <a href="images/index1.jpg"  download>download picture</a>
+    <p class="username"><mark> I  am happy to learn front end</mark></p>
   </div>
-    <video  controls  src="/video/production ID 4684430.mp4"></video>
-    <p>There is a relaxing feel of the mountains making it perfect for letting the stress disappear and peace to find its way to one’s soul. There are many people who love the mountains and live in them, but there is so much space that they hardly ever see each other. Less people means that there is less judgement by them, which means there is more freedom to be the person wanted to be without worry about that pesky inner critic </p>
-    <p> Here are a few ways climbing mountains can help everybody</p>
-    <ol>
-      <li>The physical health and fitness benefits are huge</li>
-      <li>You can see places very few get to see</li>
-      <li>You will meet the most amazing people who you will call friends</li>
-    </ol>
-    <a href="/index2.html" target="_blank">more information</a>
-    <ul>
-      <li>about me</li>
-      <li>contact me<ul>
-        <li>whatsapp</li>
-        <li>instagram</li>
-        <li>telegram</li>
-      </ul></li>
-      <li>subscribe</li>
-      </ul>
-      <dl>
-        <dt>author</dt>
-        <dd>mehrbano</dd>
-      </dl>
-     
-    <a href="#"> <h5>end</h5></a>
+  <article>
+    <section id="sec1">
+    <video  controls  src="/video/production ID 4684430.mp4"></video> 
+        
+        <p>There is a relaxing feel of the mountains making it perfect for letting the stress disappear and peace to find its way to one’s soul. There are many people who love the mountains and live in them, but there is so much space that they hardly ever see each other. Less people means that there is less judgement by them, which means there is more freedom to be the person wanted to be without worry about that pesky inner critic </p>
+      </section>
+        <p style="font-style:bold ;">Here are a few ways climbing mountains can help everybody</p>
+     <ol>
+    <li>The physical health and fitness benefits are huge</li>
+    <li>You can see places very few get to see</li>
+    <li>You will meet the most amazing people who you will call friends</li>
+  </ol>
+  <ul class="ul1">
+    <Li> <a href="/index2.html" target="_blank">more information</a></Li>
+  </ul>
+  </article>
+</main>
+<aside>
+  <div class="d3">
+  <dl>
+    <dt class="d2">author</dt>
+    <dd class="d2">mehrbano</dd>
+  </dl>
+  <p class="d2">
+    published <time datetime="1401-05-27 9:00">1401-05-27 9:00 pm</time>
+  </p>
+<a href="#"> <h5 class="d2">end</h5></a>
+</div>
+</aside>
+    
+  <footer> 
+    <div class="d3">
+     <ul>
+    <li>contact me<ul>
+      <li>whatsapp</li>
+      <li>instagram</li>
+      <li>telegram</li>
+    </ul></li>
+    <li>subscribe</li>
+    </ul>
+  </div>
+</footer>
+      
   </body>
 </html>

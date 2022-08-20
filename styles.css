@@ -1,0 +1,97 @@
+<style>
+
+
+em::after {
+    content: "...";
+    display: block;
+    color: rgba(0, 0, 0, 0.951);
+    font-style: normal;
+   
+}
+img {
+width: 200px;
+height: 200px;
+border-radius: 100px;
+float: left;
+margin-right: 10px;
+object-fit: cover;
+
+}
+.username {
+font-weight: bold;
+}
+video{
+width: 700px;
+
+
+}
+ul{
+list-style-type:disc;
+}
+.d1{
+background-color:rgb(186, 216, 244);
+width: 700px;
+height: 200px;
+}
+.highlight{
+background-color: rgb(211, 229, 230);
+}
+mark{
+background-color: rgba(137, 22, 238, 0.527);
+}
+.d3{
+width: 700px;
+background-color: rgba(121, 85, 153, 0.527);
+}
+.ul1{
+list-style-type: none;
+}
+.d2{
+padding-left: 30px;
+
+}
+body {
+    margin: 10px;
+}
+a[href^="ima"][href$="g"]{
+    color: rgb(52, 22, 79);
+}
+#sec1 ~p{
+    color:rgb(11, 1, 19) ;
+    font-size: large;
+    font-style: bold;
+}
+
+table,tr,td,th{
+    border: 1px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+
+}
+.s1{
+    text-align: left;
+}
+article  p:first-child{
+    font-style: italic;
+}
+.mountain-list :nth-child(odd){
+    color:blue;
+}
+.mountain-list :nth-child(even){
+    color:slateblue;}
+a:visited{
+    color:darkmagenta;
+}
+a:hover {
+    color:brown;
+}
+a:focus{
+    color:rgb(33, 210, 30);
+}
+p::selection{
+    color:blueviolet;
+}
+body .mountain-list li{
+    list-style-type:decimal;
+}
+</style>
